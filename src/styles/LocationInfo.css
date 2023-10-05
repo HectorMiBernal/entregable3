@@ -1,0 +1,25 @@
+.Location{
+    color: aliceblue;
+    margin: 1rem 2rem;
+    background: #062226;
+    text-align: center;
+    padding: .5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.Location__name{
+    text-transform: uppercase;
+    margin: 0.8rem;
+    font-size: 1rem;
+}
+.Location__type{
+    margin: 0.8rem;
+    font-size: 1rem;
+}
+.Location__dimension,
+.Location__residents,
+.Location__items{
+    margin: 0.8rem;
+    font-size: 1rem;
+}
+

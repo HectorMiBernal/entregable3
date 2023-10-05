@@ -1,0 +1,37 @@
+.resident{
+    width: 100%;
+    max-width: 250px;
+    background-color: #072226;
+    color: white;
+    border-radius: 1em;
+    overflow: hidden;
+    margin: 2rem;
+}
+.resident__header{
+    position: relative;
+}
+.resident__status{
+    position: absolute;
+    top: 2.5em;
+    background-color: #062226;
+    width: 33%;
+    padding: 0.3em 0.7em;
+    border-radius: 0 .5em .5em 0;
+    display: flex;
+    gap: 0.8em;
+    align-items: center;
+}
+
+.resident__status__circle{
+    display: block;
+    width: 3em;
+    aspect-ratio: 1;
+    background-color: aaa;
+    border-radius: 50%;
+}
+.resident__list,
+.resident__name{
+    margin-left: .5rem;
+    padding-bottom: .5rem;
+}
+

@@ -1,0 +1,41 @@
+body{
+    background: #05292E;
+}
+.Image__app{
+    margin: auto;
+    text-align: center;
+    width: 90%;
+    max-width: 720px;
+    margin-top: 2rem;
+    
+}
+.Title__app{
+    color: aliceblue;
+    font-size: 2.4rem;
+    text-align: center;
+    margin: 2rem;
+}
+.Form__app{
+    text-align: center;
+    display: block;
+}
+.Forminput__app{
+    font-size: 22px;
+    border-radius: 11px;
+    margin: 1rem 2rem;
+    text-align: center;
+    width: 150px
+}
+.Formbutton__app{
+    background: #062226;
+    color: beige;
+    border-radius: 11px;
+    font-size: 22px;
+    margin: .7rem 2rem;
+}
+.Formerror__app{
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    margin: 3rem;
+}
